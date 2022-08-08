@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>personal/portfolio</title>
+</head>
+<body>
+    <header class="nav center">
+        <img src="images/cs_black.png" id="logo" onclick="RefreshPage()">
+        <script type="text/javascript"> 
+           function RefreshPage(){
+                location.reload();
+            
+           }
+        </script>
+        <input type="checkbox"id="check">
+        <ol class="center">
+           <a href="#main">Home</a>
+            <a href="#about">Resume</a>
+            <a href="#about">about</a>
+            <a href="#footer">Contact</a>
+            <img src="images/moon.png" id="icon">
+        </ol>   
+            <script>
+           var icon=document.getElementById("icon");
+           var logo=document.getElementById("logo");
+       
+            icon.onclick=function(){
+           document.body.classList.toggle("dark-theme");
+          if(document.body.classList.contains("dark-theme")){
+              icon.src="images/sun.png";
+              logo.src="images/cs_white.png";
+             
+          }else{
+            icon.src="images/moon.png";
+            logo.src="images/cs_black.png";
+           
+          }
+      }
+        </script>
+    </header>
+    <section id="main" class="main">
+         <div class="box">
+            <div class="img-box">
+                 <img src="images/web-proggrammer.png" id="box-img">
+             </div>
+             <div class="box-name">
+               <h2 data-text="Socheang..." id="anime-name">Socheang...</h2>
+            </div>
+            <div class="box-text">
+               <p>Front-End & BackEnd Developer</p>
+               <a class="btn" href="#about">About</a>
+            </div>
+         </div>  
+    </section>
+    <section class="about" id="about">
+                 <div class="about-container center">
+                 <form action="" id="about-form">
+                     <img src="images/pngegg.png" id="form-img">
+                     <h1>About Me</h1>
+                     <p>Front-End Developer</p>
+                     <p>BackEnd Developer</p>
+                     <p>I am a junior developer.</p>
+                     <div class="form-input">
+                     <a href="images/mycv.lnk" download="mycv.pdf" id="download-cv">Download-cv</a>
+                      </div>
+                    </form>
+                    
+                 </div>
+
+    </section>
+
+    <section class="resume">
+        <div class="resume-box">
+            <form action="" id="resume-form">
+                 
+            </form>
+        </div>
+    </section>
+
+    <section id="footer" class="footer">
+        <div class="f-container">
+            <div class="left fbox">
+              <div class="fboxstyle">
+                <h1>About</h1>   
+            </div>
+        <div class="content">
+            <p class="stu">I am a student at Royal University of Phnom Penh (RUPP)
+                </p>
+          <div class="social">
+            <a  href="https://www.facebook.com/socheangaming"><span class="fab fa-facebook-f social-item"></span></a>
+            <a href="https://www.twitter.com/socheangCS/"><span class="fab fa-twitter social-item"></span></a>
+            <a href="https://www.t.me/socheang7"><span class="fab fa-telegram social-item"></span></a>
+          </div>
+        </div>
+     </div>
+     <div class="fcenter fbox">
+           <div class="add">
+            <h1>Address</h1>
+        </div>
+         <div class="content">
+        <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text">Tek Tla ,Sensok</span>
+        </div>
+        <div class="phone">
+            <span class="fas fa-phone-alt"></span>
+            <span class="text">0978656494</span>
+      </div>
+      <div class="email">
+        <span class="fas fa-envelope"></span>
+        <span class="text">socheang777@gamil.com</span>
+       </div>
+     </div>
+    </div>
+    <div class="right fbox">
+        <div class="contactstyle">
+        <h1>Contact</h1>
+    </div>
+        <div class="content">
+            <form action="#">
+                <div class="email">
+                <div class="text">Email *</div>
+                <input type="email" required class="mail">
+               </div>
+               <div class="msg">
+                   <div class="text">Message *</div>
+                   <textarea cols="25" rows="2" required></textarea>
+               </div>
+               <div class="btn">
+                <button type="submit" class="btnS">Send</button>
+               </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    <div class="copyright">
+         <div class="copyright-form center">
+        <p>Created By</p><a href="https://www.facebook.com/socheangaming">SocheangCS </a>
+        <span class="far fa-copyright" ></span><p>2022 All right reserved.</p>
+   </div>
+  </div>
+ </section>
+</body>
+</html>
