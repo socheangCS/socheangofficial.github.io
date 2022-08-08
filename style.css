@@ -309,6 +309,9 @@ body{
     }
 }
 @media (max-width:375px) {
+    body{
+      width:375px;
+  }
     .img-box{
        right: 0;
        top: 0;
