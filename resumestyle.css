@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+body{
+    font-family: sans-serif;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    width: 1000px;
+    margin: 10px;
+    height: 800px;
+}
+.left{
+    width: 35%;
+    height: 800px;
+    background-color: rgb(171, 219, 221);
+    border: 2px solid grey;
+}
+.pf{
+    width: 340px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.image img{
+    margin-top: 55px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.pf h1{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.pf p{
+    margin-top: -10px;
+    font-size: 12px;
+}
+.left .contact{
+    margin-top: 50px;
+    width: 340px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+} 
+.head-form{
+    background-color: rgb(5, 5, 37);
+    width: 120px;
+    height: 30px;
+    border-left: 30px solid rgb(66, 152, 185);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 7px;
+}
+.head-form h1{
+    margin-left: -10px;
+}
+.contact #contactHead{
+    color: blue;
+}
+.contact .contact-form{
+    margin-left: 20px;
+    font-size: 13px;
+}
+.lang{
+    margin-top: -20px;
+    width: 340px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+.lang-items{
+    margin-left: -40px;
+}
+.lang-items .items{
+    margin-top: 10px;
+    display: flex;
+    height: 20px;
+    width: 110px;
+}
+.lang-items .items #sub{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.lang-items .items #per{
+    margin-left: 90px;
+    font-size: 12px;
+}
+.lang-items .items #pers{
+    margin-left: 85px;
+    font-size: 12px;
+}
+
+.skill{
+    margin-top: -20px;
+    width: 340px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.skill .skill-list{
+    width: 160px;
+}
+.skill .skill-list .pro{
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.right{
+   width: 35%;
+   margin-left: 37%;
+   margin-top: -805px;
+   height: 800px;
+}
+.person{
+    margin-top: -20px;
+    width: 340px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.person .head-form{
+    width: 170px;
+    margin: 30px 50px;
+}
+.person .per-items{
+    width: 200px;
+}
+.person .per-items .per{
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.exp{
+    margin-top: 10px;
+    width: 340px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.exp .exp-items{
+    width: 190px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.exp .exp-items .ex{
+    color: rgb(6, 221, 221);
+   font-size: 13px;
+}
+#git{
+    color: black;
+    font-size: 12px;
+}
+.edu{
+    margin-top: 10px;
+    width: 340px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.edu .edu-items{
+    width: 180px;
+}
+.edu .edu-items .ed{
+    font-size: 12px;
+}
+
+
