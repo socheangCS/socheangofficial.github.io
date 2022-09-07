@@ -310,17 +310,22 @@ body{
 }
 @media (max-width:375px) {
     body{
-      width:375px;
-  }
+        width:375px;
+        display: inline;
+     }
+    .main{
+        width: 375px;
+    }
     .img-box{
        right: 0;
        top: 0;
-       margin-top: -90%;
+       margin-top: -70%;
        margin-left: -170%;
     }
     #box-img{
         width: 400px;
         height: 400px;
+
      }
      .box-name{
         width: 70%;
@@ -359,6 +364,9 @@ body{
      }
      .form-input input{
         font-size: 11px;
+     }
+     #download-cv{
+        margin-left: -250px;
      }
      .form-input{
         width: 200%;
@@ -444,18 +452,20 @@ body{
         height: 10px;
      }
      .right .content .btn button{
-        height: 20px;
-        width: 90px;
+        height: 10px;
+        width: 50px;
         align-items: center;
         display: flex;
         font-size: 11px;
+        margin-left: 10px;
      }
-     .right .content .btn{
+      .btns{
         display: flex;
         text-align: center;
         margin-top: 10px;
         height: 70px;
-        margin-left: 5%;
+        width: 10px;
+        margin-left: -11%;
      }
      
      .right .content .email .text{
