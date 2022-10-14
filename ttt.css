@@ -3,13 +3,12 @@ body{
     background:rgb(255, 255, 255);
     height: 800px;
     display: flex;
+    box-sizing: border-box;
 }
 .container{
     display: flex;
-    align-items: center;
-    justify-content: center;
     margin: auto;
-    text-align: center;
+    flex-direction: column;
 }
 .boxcon{
     display: grid;
@@ -25,18 +24,46 @@ body{
      cursor: pointer;
      font-size: 90px;
 }
-.container h1{
+ button{
     display: flex;
-    margin-top: 500px;
-    margin-left: -250px;
-}
-.container button{
-    display: flex;
-    margin-top: 600px;
-    margin-left: -100px;
     padding: 20px 70px 10px ;
     border-radius: 20px;
     font-size: 20px;
     line-height: 10px;
     cursor: pointer;
 }
+@media (max-width :1200px ) {
+    body{
+        width: 1200px;
+    }
+}
+@media (max-width :375px ) {
+    body{
+        width: 375px;
+    }
+    .boxcon{
+        width: 200px;
+        height: 200px;
+    }
+    .box{
+        width: 50px;
+        height: 50px;
+
+    }
+    .res{
+        flex-direction: column;
+        height: 50px;
+        margin-top: 30px;
+        display: flex;
+    }
+    .res h1{
+        font-size: 30px;
+        margin-left: 40px;
+    }
+    button{
+        padding: 10px 40px 10px;
+        font-size: 15px;
+        justify-content:center;
+        display: flex;
+    }
+ }
