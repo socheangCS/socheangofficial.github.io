@@ -1,0 +1,42 @@
+body{
+    width: 1600px;
+    background:rgb(255, 255, 255);
+    height: 800px;
+    display: flex;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+.boxcon{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 400px;
+    height:400px;
+    gap: 20px;
+}
+.box{
+    width: 100px;
+    height: 95px;
+     border: 1px solid black;
+     cursor: pointer;
+     font-size: 90px;
+}
+.container h1{
+    display: flex;
+    margin-top: 500px;
+    margin-left: -250px;
+}
+.container button{
+    display: flex;
+    margin-top: 600px;
+    margin-left: -100px;
+    padding: 20px 70px 10px ;
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 10px;
+    cursor: pointer;
+}
